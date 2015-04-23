@@ -10,7 +10,7 @@ it('capitalizes multiple word titles') do
   expect(('beowulf begins').title_case()).to(eq('Beowulf Begins'))
 end
 
-it("does not capitalize designted words that are not after the first word") do
+it("does not capitalize designated words that are not after the first word") do
   expect(("from beowulf to the incredible hulk").title_case()).to(eq("From Beowulf to the Incredible Hulk"))
 end
 
